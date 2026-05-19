@@ -1,0 +1,37 @@
+{
+  "name": "fan-engagement-platform",
+  "version": "1.0.0",
+  "description": "A unified fan identity, commerce, membership, ticketing, loyalty, inventory, marketplace, personalization, and AI concierge platform.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "next dev",
+    "build": "next build",
+    "serve": "next start",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/typeorm": "^9.0.0",
+    "typeorm": "^0.3.0",
+    "pg": "^8.7.1",
+    "redis": "^4.0.0",
+    "bullmq": "^1.0.0",
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/react": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0"
+  }
+}
