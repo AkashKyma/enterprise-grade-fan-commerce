@@ -12,6 +12,7 @@
     "baseUrl": "./",
     "incremental": true,
     "strict": true,
+    "typeRoots": ["./node_modules/@types"],
     "paths": {
       "@shared/*": ["src/shared/*"],
       "@modules/*": ["src/modules/*"],

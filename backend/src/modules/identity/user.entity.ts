@@ -6,15 +6,15 @@ export class User {
   id!: string;
 
   @Index({ unique: true })
-  @Column({ nullable: true })
+  @Column({ type: 'varchar', nullable: true })
   email!: string | null;
 
   @Index({ unique: true })
-  @Column({ nullable: true })
+  @Column({ type: 'varchar', nullable: true })
   phone!: string | null;
 
-  @Index({ unique: true, nullable: true })
-  @Column({ nullable: true })
+  @Index({ unique: true })
+  @Column({ type: 'varchar', nullable: true })
   membershipId!: string | null;
 
   @Column({ default: 'customer' })
