@@ -1,0 +1,38 @@
+{
+  "name": "fan-engagement-platform",
+  "version": "1.0.0",
+  "description": "A single-tenant unified fan identity, commerce, membership, ticketing, inventory, CDP, loyalty, personalization, and AI concierge platform.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
+    "@nestjs/platform-express": "latest",
+    "@nestjs/typeorm": "latest",
+    "typeorm": "latest",
+    "pg": "latest",
+    "@nestjs/jwt": "latest",
+    "@nestjs/passport": "latest",
+    "passport": "latest",
+    "passport-jwt": "latest",
+    "@reduxjs/toolkit": "latest",
+    "react-redux": "latest",
+    "bullmq": "latest",
+    "redis": "latest",
+    "aws-sdk": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
